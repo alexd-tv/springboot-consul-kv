@@ -7,5 +7,19 @@ spring:
       port: 9400
       config:
         enabled: true
-        format: PROPERTIES
-        data-key: data
+        prefix: eshop
+        # app2
+        # prefix: config
+        format: YAML
+        # app2
+        # format: PROPERTIES
+
+        # app2
+        # data-key: "data"
+
+        # app3
+        # data-key: "app3"
+        # app4
+        data-key: "app4"
+        # app5, does not work
+        #data-key: "appdir"
