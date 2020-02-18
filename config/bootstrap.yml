@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: funnelmanager
+  cloud:
+    consul:
+      host: localhost
+      port: 9400
+      config:
+        enabled: true
+        format: PROPERTIES
+        data-key: data
